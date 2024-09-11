@@ -68,7 +68,7 @@ This project has been deployed at https://mbulut.pythonanywhere.com/swagger/. Yo
 
 **Description:** Returns the conversion rate for each `customer_id`, along with the highest and lowest conversion rates.
 
-**Response:**
+**Example Response:**
 
 ```json
 {
@@ -83,7 +83,7 @@ This project has been deployed at https://mbulut.pythonanywhere.com/swagger/. Yo
 
 **Description:** Provides a summary of the distribution of status across different types and categories, including total revenue and conversions for each status.
 
-**Response:**
+**Example Response:**
 
 ```json
 [
@@ -128,7 +128,7 @@ This project has been deployed at https://mbulut.pythonanywhere.com/swagger/. Yo
 **Method:** `GET`
 
 **Description:**  Returns the total revenue and conversions grouped by category and type. Highlights the top-performing category and type combination.
-**Response:**
+**Example Response:**
 
 ```json
 [
@@ -157,7 +157,7 @@ This project has been deployed at https://mbulut.pythonanywhere.com/swagger/. Yo
 **Description:**  Description: Exposes aggregated data for rows where the type is `CONVERSION`, returning the average revenue and conversions per `customer_id`.
 
 
-**Response:**
+**Example Response:**
 
 ```json
 [
